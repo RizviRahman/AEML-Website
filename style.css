@@ -88,28 +88,35 @@ body{
 
 #content-bar{
     width: 100%;
-    height: 120px;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 30px;
 }
 
 #content{
     width: 900px;
-    border: 2px solid black;
     display: flex;
+    justify-content: space-between;
 }
 
 
 #side-bar{
-    float:right
+    border: 2px solid rgb(160, 51, 145);
+    width: 320px;
+    height: 480px;
+}
+
+#description{
+    border: 2px solid rgb(160, 51, 145);
+    width: 570px;
+    height: 480px;
 }
 
 
 
-
 #footer-bar{
+    margin-top: 10px;
    
 }
 
@@ -117,12 +124,11 @@ body{
     background-color: #075573;
     width: 100%;
     height: 20px;
+    font-size: 10pt;
+    font-family: Ubuntu;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: fixed;
+    text-align: center;
     left: 0;
     bottom: 0;
+    justify-self: center;
 }
